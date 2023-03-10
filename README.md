@@ -20,5 +20,15 @@ yarn build
 yarn lint
 ```
 
+### Install JSON Server
+```
+npm install -g json-server
+```
+
+### Start JSON Server
+```
+json-server --watch data-news.json
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
